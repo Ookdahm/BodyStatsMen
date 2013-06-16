@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Body Stats</string>
+<string name="app_subtitle">Helping You Reach Your Fitness Goals</string>
+<string name="Hips">Hips:</string>
+<string name="Weight">Weight:</string>
+<string name="Waist">Waist:</string>
+<string name="save_button_text">Save</string>
+<string name="graph_button_text">Graph</string>
+<string name="Chest">Chest:</string>
+<string name="Thigh">Thigh:</string>
+<string name="Arm">Arm:</string>
+<string name="suggestion_menu">Send Suggestion</string>
+<string name="about_menu_title">About</string>
+<string name="clear_menu">Clear Saved Stats</string>
+
+<string name="clear_button_text">Clear All</string>
+<string name="about_text">Body Stats is a simple, quick way to record and 
+view your measurements so you can monitor your progress. \n\n
+
+After you get your measurements from the doctor or your personal 
+trainer, just enter them and save. \n\n
+
+Body Stats lists all your entries in an easy-to-read, dated list so you can easily 
+see where you\'re making improvement.\n\n
+
+Android\'s Future is dedicated to bringing you *useful* applications packed full 
+of extra features similar apps omit.</string>
+<string name="about_label">About Body Stats</string>
+<string name="backup_menu">Backup/Restore</string>
+<string name="gym_menu">Find a Gym</string>
+<string name="expandable_list_action">Open browser</string>
+<string name="motivation_title">Motivation</string>
+<string name="transformation">Tranformation of the Week</string>
+<string name="personal_development">Personal Development</string>
+
+<string name="journal_menu">Journal</string>
+
+
+<string name="Tranformation_Link">www.bodybuilding.com/fun/trans_f.htm</string>
+
+
+<string name="hidden_text">  who asked me 
+to write an app to simply add her body measurements. She looked all through the Android 
+Market but only found BMI calculators and other things that did everything except what she was looking for. 
+Simple as it seemed, nothing existed. Once I got started, it took on a life of it own with more 
+and more features being added as the app developed. \n\n 
+
+	It is my sincere hope that this app serves you well and helps you 
+achieve your fitness goals.</string>
+<string name="hidden_label">Dedicated to my wife Jennifer...</string>
+<string name="gym_subtitle">Women Only Gyms</string>
+<string name="tell_a_friend_menu_title">Tell a Friend</string>
+<string name="empty_fields_text">Entering stats can be emotionally daunting. But if you fill in just one field, we can start charting your progress.\n\n Touch the screen and let\'s try again :-) \n\n</string>
+<string-array name="databaseOptions"><item>Backup Database</item>
+<item>Restore Database</item>
+</string-array>
+<string name="disclaimer_text">Android\'s Future does not in any way promise or imply that you will loose weight or achieve any other specific fitness goal  by using this applicaiton. \n\n Consult a physician before undertaking any diet or weight loss program.</string>
+<string name="disclaimer">Legal Disclaimer</string>
+<string name="toast_sort_new_to_old">Sort order changed: Newest to Oldest</string>
+<string name="toast_sort_old_to_new">Sort order changed: Oldest to Newest</string>
+</resources>

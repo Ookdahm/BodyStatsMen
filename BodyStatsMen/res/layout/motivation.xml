@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.androidsfuture.bodystatsmen"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:paddingTop="15dip"
+	android:paddingLeft="8dip"
+  	android:background="#000000" >
+  	
+  	
+	<ImageButton 
+		android:id="@+id/ImageButton01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="35dip"
+		android:paddingLeft="15dip"
+		android:background="@drawable/muscleman48"></ImageButton>
+ 		
+ 	<TextView 
+		android:text="@string/motivation_title"
+		android:id="@+id/Title_Motivate" 
+		android:layout_toRightOf="@id/ImageButton01" 
+		android:textSize="30dip"
+		android:textColor="@color/text_color"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dip"
+		android:paddingTop="15dip"
+		android:paddingBottom="30dip"></TextView>
+  	
+  	
+
+
+<ScrollView  
+		android:layout_below="@+id/Title_Motivate"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:scrollbarSize="12dip"
+		
+		>
+
+    <LinearLayout 
+    		android:orientation="vertical" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layoutAnimation="@anim/layout_animation_row_left_slide_m">
+
+        <TextView 
+        		android:text="Transformation of the Week" 
+        		android:textSize="20sp" 
+        		android:id="@+id/Tranformation" 
+        		android:layout_below="@id/Title_Motivate" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:paddingBottom="3dip" 
+        		android:paddingLeft="8dip"
+        		></TextView>
+		<TextView 
+				android:text="Bodybuilding.com" 
+				android:textSize="15sp" 
+				android:id="@+id/BodybuildingLink" 
+				android:layout_below="@+id/Tranformation" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"
+				android:focusable="true"
+				 ></TextView>
+				<View 
+						android:id="@+id/View01" 
+						android:layout_below="@+id/BodybuildingLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip" 
+						android:background="@color/text_color"></View>
+				
+		<TextView 
+				android:text="7 Weight Loss Steps for Men" 
+				android:textSize="20sp" 
+				android:id="@+id/MoDLink" 
+				android:layout_below="@id/View01" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.About.com" 
+				android:textSize="15sp" 
+				android:id="@+id/WomensFitnessLink" 
+				android:layout_below="@+id/MoDLink" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true" ></TextView>
+				<View 
+						android:id="@+id/View02" 
+						android:layout_below="@+id/WomensFitnessLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip" 
+						android:background="@color/text_color"></View>
+				
+		<TextView 
+				android:text="Biggest Loser Club" 
+				android:textSize="20sp" 
+				android:id="@+id/BiggestLooserClub" 
+				android:layout_below="@id/View02" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="BiggestLoserClub.com" 
+				android:textSize="15sp" 
+				android:id="@+id/BiggestLooserLink" 
+				android:layout_below="@+id/BiggestLooserClub" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true" ></TextView>
+				<View 
+						android:id="@+id/View03" 
+						android:layout_below="@+id/BiggestLooserLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip" 
+						android:background="@color/text_color"></View>
+				
+		<TextView 
+				android:text="The Psychology of Motivation - Unleash Your Potential " 
+				android:textSize="20sp" 
+				android:id="@+id/WeightLossMotivation" 
+				android:layout_below="@id/View03" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>	
+		<TextView 
+				android:text="MensHealth.com" 
+				android:textSize="15sp" 
+				android:id="@+id/WLMBLink" 
+				android:layout_below="@+id/WeightLossMotivation" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true" ></TextView>
+				<View 
+						android:id="@+id/View04" 
+						android:layout_below="@+id/WLMBLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip" 
+						android:background="@color/text_color"></View>
+				
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Monday" 
+				android:textSize="20sp" 
+				android:id="@+id/MakingWeightLossFun" 
+				android:layout_below="@id/View04" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:textSize="15sp" 
+				android:id="@+id/MWLFLink" 
+				android:layout_below="@+id/MakingWeightLossFun" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true" ></TextView>
+				<View 
+						android:id="@+id/View05" 
+						android:layout_below="@+id/MWLFLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip"
+						android:background="@color/text_color"></View>
+						
+    	<TextView 
+    			android:text="The Daniel Craig (James Bond) Workout - Tuesday" 
+    			android:textSize="20sp"
+    			android:id="@+id/GoalSetting" 
+    			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:textSize="15sp" 
+				android:id="@+id/GoalSettingLink" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+				<View 
+						android:id="@+id/View06" 
+						android:layout_below="@+id/MWLFLink" 
+						android:layout_width="wrap_content" 
+						android:layout_height="2dip"
+						android:background="@color/text_color"></View>
+						
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Wednesday" 
+				android:id="@+id/Exercise_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:id="@+id/Exercise_MotivationLink" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View07" 
+				android:layout_below="@+id/MWLFLink" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Thursday" 
+				android:id="@+id/Hundred_Pound_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:id="@+id/Hundred_Pound_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View08" 
+					android:layout_below="@id/Hundred_Pound_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Friday" 
+				android:id="@+id/What_I_Ate_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:id="@+id/What_I_Ate_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View09" 
+					android:layout_below="@+id/What_I_Ate_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Saturday" 
+				android:id="@+id/JoyFitBianca_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:id="@+id/JoyFitBianca_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View10" 
+					android:layout_below="@id/JoyFitBianca_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="The Daniel Craig (James Bond) Workout - Sunday" 
+				android:id="@+id/JoyFitMom127_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="MensHealth.com" 
+				android:id="@+id/JoyFitMom127_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View11" 
+					android:layout_below="@id/JoyFitMom127_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Leg Training Routine" 
+				android:id="@+id/JoyFit300_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/JoyFit300_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View12" 
+				android:layout_below="@id/JoyFit300_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="The Rock Training at The Fitness" 
+				android:id="@+id/JoyFit340_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/JoyFit340_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View13" 
+					android:layout_below="@id/JoyFit340_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Access Hollywood: LL Cool J Workout" 
+				android:id="@+id/Kim_Benson_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/Kim_Benson_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View14" 
+					android:layout_below="@id/Kim_Benson_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Men's Fitness - LL Cool J" 
+				android:id="@+id/Five_Hundred_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/Five_Hundred_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View15" 
+					android:layout_below="@+id/Five_Hundred_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Lou Ferrigno - Pumping Iron Training Clip" 
+				android:id="@+id/Shay_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/Shay_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+			<View 
+					android:id="@+id/View16" 
+					android:layout_below="@+id/Shay_Link" 
+					android:layout_width="wrap_content" 
+					android:layout_height="2dip"
+					android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Lou Ferrigno *The Hulk* Profile and Gym Workout" 
+				android:id="@+id/Amanda_Ques_1_Motivation" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/Amanda_Ques_1_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View17" 
+				android:layout_below="@id/Amanda_Ques_1_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+				
+		<TextView 
+				android:text="John Cena in the Gym" 
+				android:id="@+id/CenaGym" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/CenaGym_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View18" 
+				android:layout_below="@id/CenaGym_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Arnold Schwarzenegger Olympia Training" 
+				android:id="@+id/ArnoldTraining" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/ArnoldTraining_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View19" 
+				android:layout_below="@id/ArnoldTraining_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Sylvester Stallone Training for \'The Expendables\'" 
+				android:id="@+id/StalloneExpendables" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/StalloneExpendables_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View20" 
+				android:layout_below="@id/StalloneExpendables_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Rocky Balboa Workout" 
+				android:id="@+id/RockyWorkout" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/RockyWorkout_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View21" 
+				android:layout_below="@id/RockyWorkout_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>
+		<TextView 
+				android:text="Johnnie Jackson (World's Strongest Bodybuilder) Biceps and Triceps" 
+				android:id="@+id/JohnnieJackson" 
+				android:textSize="20sp"
+				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:paddingBottom="3dip" 
+				android:paddingTop="10dip" 
+				android:paddingLeft="8dip"></TextView>
+		<TextView 
+				android:text="YouTube Video" 
+				android:id="@+id/JohnnieJackson_Link" 
+				android:textSize="15sp" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dip" 
+				android:paddingLeft="8dip"
+				android:linksClickable="true"></TextView>
+		<View 
+				android:id="@+id/View22" 
+				android:layout_below="@id/JohnnieJackson_Link" 
+				android:layout_width="wrap_content" 
+				android:layout_height="2dip"
+				android:background="@color/text_color"></View>		
+		<View 
+				android:id="@+id/View23" 
+				android:layout_width="wrap_content" 
+				android:layout_height="45dip"></View>
+</LinearLayout>
+</ScrollView>
+<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:animation="@anim/fade"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC"
+		myapp:keywords="sport|sports"
+	/>
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="20dip">
+
+<TableLayout 
+	android:id="@+id/TableLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+		<TableRow 
+			android:id="@+id/TableRow01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip">
+				<TextView 
+					android:text="Chest: " 
+					android:id="@+id/TextView02" 
+					android:layout_marginRight="1dip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelChest" 
+					android:inputType="phone"
+					android:layout_marginRight="23dip"
+					android:layout_width="65dip" 
+					android:layout_height="wrap_content"></EditText>
+				<TextView 
+					android:text="Waist: " 
+					android:id="@+id/TextView03" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelWaist" 
+					android:inputType="phone"
+					android:layout_width="65dip" 
+					android:layout_height="wrap_content"></EditText>
+			</TableRow>
+		</TableLayout>
+<TableLayout 
+	android:id="@+id/TableLayout02" 
+	android:layout_below="@id/TableLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+		<TableRow 
+			android:id="@+id/TableRow02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip">
+				<TextView 
+					android:text="Neck:" 
+					android:id="@+id/TextView04" 
+					android:layout_marginRight="8dip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelNeck" 
+					android:inputType="phone"
+					android:layout_marginRight="32dip"
+					android:layout_width="65dip" 
+					android:layout_height="wrap_content"></EditText>
+				<TextView 
+					android:text="Arm: " 
+					android:id="@+id/TextView05" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelArm" 
+					android:inputType="phone"
+					android:layout_width="65dip"
+					android:layout_height="wrap_content"></EditText>
+			</TableRow>
+		</TableLayout>
+<TableLayout 
+	android:id="@+id/TableLayout03" 
+	android:layout_below="@id/TableLayout02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="35dip">
+		<TableRow 
+			android:id="@+id/TableRow03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip">
+				<TextView 
+					android:text="Thigh:" 
+					android:id="@+id/TextView06" 
+					android:layout_marginRight="4dip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelThigh" 
+					android:inputType="phone"
+					android:layout_marginRight="13dip"
+					android:layout_width="65dip" 
+					android:layout_height="wrap_content"></EditText>
+				<TextView 
+					android:text="Weight:  " 
+					android:id="@+id/TextView07" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<EditText 
+					android:id="@+id/DelWeight" 
+					android:inputType="phone"
+					android:layout_width="65dip" 
+					android:layout_height="wrap_content"></EditText>
+			</TableRow>
+		</TableLayout>
+<TableLayout 
+	android:id="@+id/TableLayout04" 
+	android:layout_below="@id/TableLayout03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+		<TableRow 
+			android:id="@+id/TableRow04" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+				<Button 
+					android:text="Save Changes" 
+					android:id="@+id/DelSave" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_weight="1"></Button>
+				<Button 
+					android:text="Dismiss Changes" 
+					android:id="@+id/DelDismiss" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_weight="1"></Button>
+				<Button 
+					android:text="Delete Entries" 
+					android:id="@+id/DelDelete" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_weight="1"></Button>
+		</TableRow>
+</TableLayout>
+</RelativeLayout>
